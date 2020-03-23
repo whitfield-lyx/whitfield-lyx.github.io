@@ -18,11 +18,11 @@
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css">
     <title>
         
-        
+        Tags｜undefined
         
     </title>
 
-    <link rel="canonical" href="http://yoursite.com/archives/2020/">
+    <link rel="canonical" href="http://yoursite.com/Tags/">
 
     <!-- Bootstrap Core CSS -->
     
@@ -129,129 +129,87 @@
 </script>
 
 <!-- Main Content -->
-
+<style>
+    .intro-header .site-heading {
+        margin: 50px;
+    }
+    
+    header.intro-header {
+        background-image: url('')
+    }
+    
+</style>
 
 <!-- Page Header -->
-<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 visible-xs-block visible-sm-block">
-    <div class="row">
-        <header class="intro-header">
-            <div class="container">
+<header class="intro-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
                 <div class="site-heading text-center">
-                    <div class="about-me">
-                        <!--移动端头部显示-->
-                        <img src=""/>
-                        <h5><a href="/about/">七尾</a></h5>
-                        <p></p>
-                    </div>
+                    <h1>Tags</h1>
+                    <span class="subheading"></span>
                 </div>
             </div>
-        </header>
+        </div>
     </div>
-</div>
+</header>
+
 <!-- Main Content -->
-<div class="container custom-haojen-container">
-    <!-- Post Container -->
+<div class="container">
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-1 col-md-8 col-md-offset-1 col-sm-12 col-xs-12 post-container">
-            <!-- Main Content -->
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- 标签云 -->
+            <div id='tag_cloud' class="tags">
+                
+                <a href="#算法" title="算法" rel="1">算法</a>
+                
+                <a href="#复习" title="复习" rel="1">复习</a>
+                
+            </div>
 
-
-
-<div class="post-preview "
-     style="background-image: url('')">
-    <a href="/2020/03/23/算法 总复习/">
-        <h2 class="post-title">
-            算法导论
-        </h2>
-        <p class="post-meta">
-            <i class="fa fa-calendar" aria-hidden="true"></i> 2020-03-23
-        </p>
-        
-        <h3 class="post-subtitle">
-            期末的复习提纲
-        </h3>
-        
-        <div class="post-content-preview">
-            <p>
-                Sorting in Linear Time比较算法 的最佳时间复杂度为O（nlgn）
-插入排序
-归并排序
-快速排序
-堆排序
-
-决策树
-最坏的运行时间 = 树的高度
-排序n个元素的数 高度至少为Ω(nlgn)
-n个元素有n！种排列作为叶节点
-高度为h的树最多有2的h次方个叶节点
-h≥log（n！..
-            </p>
-        </div>
-    </a>
-
-</div>
-
-<hr>
-
-
-
-
-<!-- 翻页 pager -->
-
-<ul class="pager">
-    
-    
-</ul>
-
-
-        </div>
-        <!-- Sidebar Container -->
-        <div class="
-                col-lg-3 col-lg-offset-0
-                col-md-3 col-md-offset-0
-                col-sm-12
-                col-xs-12
-                sidebar-container
-            ">
-
-            <!-- About Me -->
-            <section class="visible-md visible-lg" style="padding: 0 18px">
-                <div class="short-about">
-                    <!--侧边栏头像-->
-                    
-                    <h5><a href="/about/">七尾</a></h5>
-                    
-                    <hr>
-                    <!-- SNS Link 社交 -->
-                    <ul class="list-inline">
-                        
-                        
-                        
-
-                        
-
-                        
-
-                        
-
-                        
-                    </ul>
-                </div>
-            </section>
-
-            <!-- Featured Tags  标签 -->
+            <!-- 标签列表 -->
             
-            <section>
-                <div class="tags">
-                    
-                    
-                    
-                    
-                    
+            <div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="算法">
+                    <span class="tag-text">算法</span>
+                </span>
+                
+                <div class="post-preview">
+                    <a href="/2020/03/23/算法 总复习/">
+                        <h2 class="post-title">
+                            算法导论
+                        </h2>
+                        
+                        <h3 class="post-subtitle">
+                            期末的复习提纲
+                        </h3>
+                        
+                    </a>
                 </div>
-            </section>
+                <hr>
+                
+            </div>
             
-
+            <div class="one-tag-list">
+                <span class="fa fa-tag listing-seperator" id="复习">
+                    <span class="tag-text">复习</span>
+                </span>
+                
+                <div class="post-preview">
+                    <a href="/2020/03/23/算法 总复习/">
+                        <h2 class="post-title">
+                            算法导论
+                        </h2>
+                        
+                        <h3 class="post-subtitle">
+                            期末的复习提纲
+                        </h3>
+                        
+                    </a>
+                </div>
+                <hr>
+                
+            </div>
             
 
         </div>
